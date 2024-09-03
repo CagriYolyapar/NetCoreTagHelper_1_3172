@@ -1,0 +1,26 @@
+﻿@model Category
+
+<form>
+
+    <input type="text" />
+
+    <input type="text" asp-for="CategoryName" />
+
+
+    <a asp-action="Index" asp-controller="Home" asp-route-deneme="2">Tıklayınız</a>
+
+
+
+    <myOwn isim="Cagri" soy-isim="Yolyapar"> </myOwn>
+
+
+
+    @* @Html.ActionLink("Tıklayınız","Index","Category",new{deneme= 2}) *@
+
+
+
+
+
+    @* <a href="/Home/Index?deneme=2"> </a>    *@
+
+</form>
